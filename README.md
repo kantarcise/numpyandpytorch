@@ -16,14 +16,15 @@ But what is it that makes them so good? Can we simply demonstrate their abilitie
 
 We'll use 3 examples only, to compare the Python Standart Library, Numpy and PyTorch. If you want to dive deeper and discover what PyTorch gives you, please see the original repository from Justin.
 
-- <a href='#let-me-implement-this-myself-🤹'>Let me Implement this Myself</a>
-- <a href='#raw-python-🤭'>Raw Python</a>
-- <a href='#numpy-🤨'>numpy</a>
-- <a href='#pytorch-tensors-🤔'>PyTorch</a>
+- <a href='#let-me-implement-this-myself'>Let me Implement this Myself</a>
+- <a href='#raw-python'>Raw Python</a>
+- <a href='#numpy'>numpy</a>
+- <a href='#pytorch-tensors'>PyTorch</a>
 
-## Let me Implement this Myself 🤹
 
-Absolutely, that's the goal!
+## Let me Implement this Myself
+
+Absolutely, that's the goal! 🤹
 
 Depending on how you use python (with `venv` or `conda` environments), you can install all requirements with `requirements.txt`.
 
@@ -46,11 +47,11 @@ We will use a fully-connected ReLU network as our running example.
 
 The network will have a single hidden layer, and will be trained with gradient descent to fit random data by minimizing the Euclidean distance between the network output and the true output.
 
-## Raw Python 🤭
+## Raw Python
 
 Even before the implementation of Numpy, we can implement the network using only the standard library.
 
-There is nothing stopping us from using Python `list`'s to make this work.
+There is nothing stopping us from using Python `list`'s to make this work. 🤭
 
 You can run the code within your virtual environment:
 
@@ -68,9 +69,9 @@ The performance difference is, well, see for yourself.
 
 ![Performance Comparison](images/listvsnumpyperf.jpg)
 
-## numpy 🤨
+## numpy
 
-Now, we will implement the same network using Numpy.
+Now, we will implement the same network using **Numpy**. 🤨
 
 NumPy is a popular Python library that helps you work with multi-dimensional arrays—think of them as grids of numbers with various levels of depth. It offers a wide range of tools to perform operations on these arrays efficiently, making it a staple for scientific computing tasks.
 
@@ -86,9 +87,11 @@ python src/numpy_neural_network.py
 
 The speed is incredible compared to Python Standard Library 🍓.
 
-## PyTorch: Tensors 🤔
+## PyTorch: Tensors
 
 Numpy is a great framework, but it cannot utilize GPUs to accelerate its numerical computations. For modern deep neural networks, GPUs often provide speedups of [50x or greater](https://github.com/jcjohnson/cnn-benchmarks), so unfortunately numpy won't be enough for modern deep learning.
+
+PyTorch is a fully featured framework for building deep learning models, which is a type of machine learning. 🤔
 
 Let's explore one of PyTorch's foundational concepts: the Tensor. At its core, a PyTorch Tensor is very similar to a NumPy array—it’s an n-dimensional array that allows you to store and manipulate data efficiently. Just like with NumPy, you can perform a wide range of mathematical operations on Tensors using PyTorch's extensive library of functions. Think of Tensors as the backbone of all computations in PyTorch, serving as a versatile tool for scientific computing.
 
