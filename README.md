@@ -8,27 +8,30 @@ From this day forward, you'll have a clear and consice answer.
 
 ## Why ? 
 
-[Andrej](https://karpathy.ai/) is always generous sharing the love towards Numpy & PyTorch, as seen [here](https://github.com/karpathy/nanoGPT?tab=readme-ov-file#install), [here](https://youtu.be/oBklltKXtDE?t=649) and [here](https://youtu.be/l8pRSuU81PU?t=251).
+[Andrej](https://karpathy.ai/) is always generous sharing the love towards Numpy & PyTorch, as seen [here](https://github.com/karpathy/nanoGPT?tab=readme-ov-file#install), [here](https://youtu.be/oBklltKXtDE?t=649) and [here](https://youtu.be/l8pRSuU81PU?t=251). 💚
 
 But what is it that makes them so good? Can we simply demonstrate their abilities?
 
-[This repository](https://github.com/jcjohnson/pytorch-examples) introduces the fundamental concepts of PyTorch through some examples. Special thanks to [Justin](https://github.com/jcjohnson) for a wonderful resource. I thought, we can extend the examples, starting from Python Standard Library only.
+[This repository](https://github.com/jcjohnson/pytorch-examples) introduces the fundamental concepts of PyTorch through some examples. Special thanks to [Justin](https://github.com/jcjohnson) for a wonderful resource. I thought, we can extend the examples, starting from **Python Standard Library only**.
 
-We will use 3 examples only, to compare the Python Standart Library, Numpy and PyTorch. If you want to dive deeper and discover what PyTorch gives you, please see the original repository from Justin.
+We'll use 3 examples only, to compare the Python Standart Library, Numpy and PyTorch. If you want to dive deeper and discover what PyTorch gives you, please see the original repository from Justin.
 
+- <a href='#Implementation'>Let me Implement this Myself</a>
 - <a href='#raw-python'>Raw Python</a>
 - <a href='#warm-up-numpy'>numpy</a>
 - <a href='#pytorch-tensors'>PyTorch</a>
 
-### Testing the code
+## Let me Implement this Myself
 
-Depending on how you use python (with venv or conda environments), you can install all requirements with `requirements.txt`.
+Absolutely, that's the goal!
 
-Here is a `venv` approach example
+Depending on how you use python (with `venv` or `conda` environments), you can install all requirements with `requirements.txt`.
+
+Here is a `venv` approach example:
 
 ```bash
 # clone the repository
-git clone 
+git clone https://github.com/kantarcise/numpyandpytorch.git
 
 # make a virtual environment in the project root
 python -m venv compareandlearn
@@ -42,8 +45,6 @@ pip install -r requirements.txt
 We will use a fully-connected ReLU network as our running example. 
 
 The network will have a single hidden layer, and will be trained with gradient descent to fit random data by minimizing the Euclidean distance between the network output and the true output.
-
-### Table of Contents
 
 ## Raw Python 
 
@@ -67,7 +68,7 @@ The performance difference is, well, see for yourself.
 
 ![Performance Comparison](images/listvsnumpyperf.jpg)
 
-## numpy
+## numpy 
 
 Now, we will implement the same network using Numpy.
 
@@ -101,14 +102,18 @@ You can run the code as:
 python src/pytorch_neural_network.py
 ```
 
-Depending on your hardware (GPU or CPU of the system), the speed would be possibly order of magnitude better.
+Depending on your hardware (GPU or CPU), the speed will be significantly improved, potentially by an order of magnitude.
 
 ### Summary
 
-Now you know a one answer to the question, why should we learn and use Numpy & PyTorch.
+Now you have an answer to the question, *why should we learn and use Numpy & PyTorch*.
 
-Where will your curiousity guide you?
+# Where will your curiousity guide you?
 
 ### Extras
 
 To check out PyTorch Autograd, defining your own Autograd Operator, Tensorflow Static Graphs, the high level `nn`, `optim` modules and a Custom `nn` Module in PyTorch, see the original repo from Justin. 
+
+Feel free to reach out if you have any questions or need further assistance. 
+
+Keep discovering! 🚀
