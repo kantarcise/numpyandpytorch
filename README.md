@@ -16,12 +16,12 @@ But what is it that makes them so good? Can we simply demonstrate their abilitie
 
 We'll use 3 examples only, to compare the Python Standart Library, Numpy and PyTorch. If you want to dive deeper and discover what PyTorch gives you, please see the original repository from Justin.
 
-- <a href='#Implementation'>Let me Implement this Myself</a>
-- <a href='#raw-python'>Raw Python</a>
-- <a href='#numpy'>numpy</a>
-- <a href='#pytorch-tensors'>PyTorch</a>
+- <a href='#let-me-implement-this-myself-🤹'>Let me Implement this Myself</a>
+- <a href='#raw-python-🤭'>Raw Python</a>
+- <a href='#numpy-🤨'>numpy</a>
+- <a href='#pytorch-tensors-🤔'>PyTorch</a>
 
-## Let me Implement this Myself
+## Let me Implement this Myself 🤹
 
 Absolutely, that's the goal!
 
