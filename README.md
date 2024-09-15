@@ -18,7 +18,7 @@ We'll use 3 examples only, to compare the Python Standart Library, Numpy and PyT
 
 - <a href='#Implementation'>Let me Implement this Myself</a>
 - <a href='#raw-python'>Raw Python</a>
-- <a href='#warm-up-numpy'>numpy</a>
+- <a href='#numpy'>numpy</a>
 - <a href='#pytorch-tensors'>PyTorch</a>
 
 ## Let me Implement this Myself
@@ -46,7 +46,7 @@ We will use a fully-connected ReLU network as our running example.
 
 The network will have a single hidden layer, and will be trained with gradient descent to fit random data by minimizing the Euclidean distance between the network output and the true output.
 
-## Raw Python 
+## Raw Python 🤭
 
 Even before the implementation of Numpy, we can implement the network using only the standard library.
 
@@ -68,7 +68,7 @@ The performance difference is, well, see for yourself.
 
 ![Performance Comparison](images/listvsnumpyperf.jpg)
 
-## numpy 
+## numpy 🤨
 
 Now, we will implement the same network using Numpy.
 
@@ -86,7 +86,7 @@ python src/numpy_neural_network.py
 
 The speed is incredible compared to Python Standard Library 🍓.
 
-## PyTorch: Tensors
+## PyTorch: Tensors 🤔
 
 Numpy is a great framework, but it cannot utilize GPUs to accelerate its numerical computations. For modern deep neural networks, GPUs often provide speedups of [50x or greater](https://github.com/jcjohnson/cnn-benchmarks), so unfortunately numpy won't be enough for modern deep learning.
 
@@ -108,7 +108,7 @@ Depending on your hardware (GPU or CPU), the speed will be significantly improve
 
 Now you have an answer to the question, *why should we learn and use Numpy & PyTorch*.
 
-# Where will your curiousity guide you?
+# Where will your curiousity guide you? 🌠
 
 ### Extras
 
