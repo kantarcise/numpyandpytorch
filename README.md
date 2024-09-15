@@ -2,7 +2,7 @@
 
 Why should we learn to use Numpy or PyTorch? 🤔
 
-From this day forward, you'll have a clear and consice answer.
+From this day forward, you'll have a clear and concise answer.
 
 ![pythonNumpyPyTorch header image](pythonNumpyPyTorch.png)
 
