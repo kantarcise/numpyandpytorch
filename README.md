@@ -107,13 +107,13 @@ python src/pytorch_neural_network.py
 
 Depending on your hardware (GPU or CPU), the speed will be significantly improved, potentially by an order of magnitude.
 
-### Summary
+## Summary
 
 Now you have an answer to the question, *why should we learn and use Numpy & PyTorch*.
 
 # Where will your curiousity guide you? 🌠
 
-### Extras
+## Extras
 
 To check out PyTorch Autograd, defining your own Autograd Operator, Tensorflow Static Graphs, the high level `nn`, `optim` modules and a Custom `nn` Module in PyTorch, see the original repo from Justin. 
 
