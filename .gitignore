@@ -1,0 +1,6 @@
+# Distribution / packaging
+dist/
+
+# uv
+uv.lock
+.venv/ 

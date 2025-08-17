@@ -26,21 +26,41 @@ We'll use 3 examples only, to compare the Python Standart Library, Numpy and PyT
 
 Absolutely, that's the goal! 🤹
 
-Depending on how you use python (with `venv` or `conda` environments), you can install all requirements with `requirements.txt`.
+This project uses `uv` for Python package management. You can install all requirements using the included `pyproject.toml`.
 
-Here is a `venv` approach example:
+Here is how to get started:
 
+**Quick Setup (Linux/macOS):**
 ```bash
 # clone the repository
 git clone https://github.com/kantarcise/numpyandpytorch.git
 
-# make a virtual environment in the project root
-python -m venv compareandlearn
+# navigate to the project directory
+cd numpyandpytorch
 
-# activate it and install packages
-source compareandlearn/bin/activate
+chmod +x setup.sh
+./setup.sh
+```
 
-pip install -r requirements.txt
+**Don't have uv installed?**
+Install it quickly with:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+Or visit [here for details.](https://docs.astral.sh/uv/getting-started/installation/)
+
+
+**Let me do it by myself, no scripts:**
+```bash
+# clone the repository
+git clone https://github.com/kantarcise/numpyandpytorch.git
+
+# navigate to the project directory
+cd numpyandpytorch
+
+# install dependencies using uv
+uv sync
+source .venv/bin/activate
 ```
 
 We will use a fully-connected ReLU network as our running example. 
